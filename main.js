@@ -7,7 +7,7 @@ miro.onReady(() => {
           '<circle cx="12" cy="12" r="9" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"/>',
         positionPriority: 1,
         onClick: async () => {
-          const waitMoment = () => new Promise(r => setTimeout(r, 500))
+          const waitMoment = () => new Promise(r => setTimeout(r, 1000))
           const calcFrames =  await miro.board.widgets.get({type: 'frame', title: 'Calc'})
           calcFrames.forEach(async(calcFrame) => {
             let estimationSum = 0
