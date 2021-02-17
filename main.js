@@ -1,6 +1,6 @@
 miro.onReady(() => {
   const icon =
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1,.cls-2{fill:none;}.cls-2{stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title>calc_24</title><g id="レイヤー_2" data-name="レイヤー 2"><g id="Rectangle"><rect class="cls-1" width="48" height="48"/></g><g id="icon_data"><rect class="cls-2" x="9" y="6" width="30" height="36"/><line class="cls-2" x1="9" y1="16" x2="33" y2="16"/><circle cx="17" cy="23" r="2"/><circle cx="24" cy="23" r="2"/><circle cx="31" cy="23" r="2"/><circle cx="17" cy="29" r="2"/><circle cx="24" cy="29" r="2"/><circle cx="31" cy="29" r="2"/><circle cx="17" cy="35" r="2"/><circle cx="24" cy="35" r="2"/><circle cx="31" cy="35" r="2"/></g></g></svg>'
+    '<g id="レイヤー_2" data-name="レイヤー 2"><g id="Rectangle"><rect class="cls-1" width="48" height="48"/></g><g id="icon_data"><rect class="cls-2" x="9" y="6" width="30" height="36"/><line class="cls-2" x1="9" y1="16" x2="33" y2="16"/><circle cx="17" cy="23" r="2"/><circle cx="24" cy="23" r="2"/><circle cx="31" cy="23" r="2"/><circle cx="17" cy="29" r="2"/><circle cx="24" cy="29" r="2"/><circle cx="31" cy="29" r="2"/><circle cx="17" cy="35" r="2"/><circle cx="24" cy="35" r="2"/><circle cx="31" cy="35" r="2"/></g></g>'
   miro.initialize({
     extensionPoints: {
       bottomBar: {
